@@ -1,0 +1,28 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 100;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+@media(max-width: 991px) {
+    header {
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+}
